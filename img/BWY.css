@@ -33,7 +33,7 @@
 	.td-flex {
 		flex-basis:25%;
 		max-width:150px;
-		min-width:120px;
+		min-width:110px;
 		border: 1px solid #000;
 		border-radius: 5%;
 		margin:5px;
