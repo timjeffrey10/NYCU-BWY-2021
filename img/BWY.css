@@ -1,5 +1,7 @@
 	body {
 		color:black;
+		box-sizing: content-box;
+		line-height: 1.3;
 	}
 	.main-content h2{
 		font-weight:bold;
