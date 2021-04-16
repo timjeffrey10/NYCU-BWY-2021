@@ -42,12 +42,14 @@ div {
 	box-sizing: content-box;
 }
 .logo {
-    width: 70px;
-    height: 70px;
-    margin-bottom: 10px;
+	width: 8VW;
+    height: 8VW;
 }
 div#logo {
 	text-align: left;
+    position: absolute;
+    left: 3VW;
+    top: 3VW;
 }
 .tr-flex {
 	display:flex;
