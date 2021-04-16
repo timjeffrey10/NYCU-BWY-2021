@@ -23,7 +23,7 @@ summary {
 	color:blue;
 }
 .content {
-	margin:0% 1%;	
+	margin:0% 2%;	
 }
 img.product {
 	width:20vw;
@@ -53,7 +53,6 @@ div#logo {
 .tr-flex {
 	display:flex;
 	flex-wrap: wrap;
-	margin:8px;
 }
 .tr-flex .td-flex {
 	flex-basis:25%;
