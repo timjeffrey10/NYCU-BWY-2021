@@ -22,6 +22,9 @@ summary {
 	font-size:1.2em;
 	color:blue;
 }
+details {
+	margin:0% 3%;	
+}
 img.product {
 	width:20vw;
 	max-width:128px;
