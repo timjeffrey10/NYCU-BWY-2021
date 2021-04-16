@@ -42,6 +42,12 @@ s {
 div {
 	box-sizing: content-box;
 }
+.logo {
+    width: 30%;
+    height: 30%;
+    text-align: left;
+    margin-bottom: 10px;
+}
 .tr-flex {
 	display:flex;
 	flex-wrap: wrap;
