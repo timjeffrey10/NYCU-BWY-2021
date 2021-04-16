@@ -43,10 +43,12 @@ div {
 	box-sizing: content-box;
 }
 .logo {
-    width: 30%;
-    height: 30%;
-    text-align: left;
+    width: 70px;
+    height: 70px;
     margin-bottom: 10px;
+}
+div#logo {
+	text-align: left;
 }
 .tr-flex {
 	display:flex;
