@@ -4,7 +4,6 @@ body {
 }
 h2 {
 	font-weight:bold;
-	margin: 1rem;
 	color: #159957;
 	
 }
@@ -21,6 +20,9 @@ summary {
 	display:list-item;
 	font-size:1.2em;
 	color:blue;
+}
+.content {
+	margin:0% 1%;	
 }
 img.product {
 	width:20vw;
@@ -39,10 +41,19 @@ s {
 div {
 	box-sizing: content-box;
 }
+.logo {
+	width: 8VW;
+    height: 8VW;
+}
+div#logo {
+	text-align: left;
+    position: absolute;
+    left: 3VW;
+    top: 3VW;
+}
 .tr-flex {
 	display:flex;
 	flex-wrap: wrap;
-	margin:8px;
 }
 .tr-flex .td-flex {
 	flex-basis:25%;
@@ -82,4 +93,7 @@ div {
 	text-align: center;
 	vertical-align: bottom;
 	padding: 2px;
+}
+.project-name {
+    margin-top: 10px;
 }
