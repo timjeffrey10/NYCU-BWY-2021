@@ -2,6 +2,14 @@ body {
 	color:black;
 	line-height: 1.3;
 }
+ad{
+	width: 100px;
+	height: 100px;
+	background-color: #159957;
+	position: fixed;
+	top: 0.625rem;
+	right: 0.625rem;
+}
 .content {
 	margin:0% 1%;	
 }
