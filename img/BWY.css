@@ -26,13 +26,12 @@ p.neon-effect {
 }
 .neon-effect:nth-of-type(1){
 	text-shadow:
-		0 0 5px rgba(255, 65, 65, 1),
-		0 0 10px rgba(255, 65, 65, 1),
-		0 0 20px rgba(255, 65, 65, 1),
-		0 0 40px rgba(255, 65, 65, 1);
-	animation:neon-shine 2s linear infinite;
+		0 0 5px rgba(65, 65, 255, 1),
+		0 0 10px rgba(65, 65, 255, 1),
+		0 0 20px rgba(65, 65, 255, 1),
+		0 0 40px rgba(65, 65, 255, 1),
+	animation:neon-shine 1s linear infinite;
 }
-
 @keyframes neon-shine{
 	0%{opacity:1;}
 	90%{opacity:0;}
