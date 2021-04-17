@@ -5,9 +5,8 @@ body {
 a.btn2 {
     display: block;
     margin-bottom: 1rem;
-    color: #232323;
-    background: url('https://raw.githubusercontent.com/timjeffrey10/NYCU-BWY-2021/main/img/nav3-2.png') repeat-x;
-    border-right: url('https://raw.githubusercontent.com/timjeffrey10/NYCU-BWY-2021/main/img/nav3-1.png');
+    color: gray;
+    background: url('https://raw.githubusercontent.com/timjeffrey10/NYCU-BWY-2021/main/img/nav3-1.png') repeat-x;
 	border-top: none;
 	border-bottom: none;
 	border-left: none;
@@ -19,12 +18,14 @@ a.btn2 {
 	top: 10px;
 	height: 43px;
 	width: max-content;
-	pedding: 3px;
 	text-align: center;
-	text-size: 17px;
+	text-size: 13px;
+	padding: 3px;
 }
 a.btn2: hovor{
-	background-color: rgba(240,255,0,0.8);
+	background-color: url('https://raw.githubusercontent.com/timjeffrey10/NYCU-BWY-2021/main/img/nav3-2.png'), repeat-x;
+	color: white;
+	text-underline: none;
 }
 
 .content {
