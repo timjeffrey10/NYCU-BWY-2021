@@ -5,9 +5,9 @@ body {
 a.btn2 {
     display: block;
     margin-bottom: 1rem;
-    color: rgba(255,255,255,0.7);
-    background-color: rgba(255,255,255,0.08);
-    border-color: rgba(255,255,255,0.2);
+    color: #232323;
+    background: url('https://raw.githubusercontent.com/timjeffrey10/NYCU-BWY-2021/main/img/logo-2') repeat;
+    border-color: rgba(240,255, 0,0.2);
     border-style: solid;
     border-width: 1px;
     border-radius: 0.3rem;
@@ -18,7 +18,14 @@ a.btn2 {
 	top: 10px;
 	height: max-content;
 	width: max-content;
+	pedding: 3px;
+	text-align: center;
+	text-size: 17px;
 }
+a.btn2: hovor{
+	background-color: rgba(240,255,0,0.8);
+}
+
 .content {
 	margin:0% 1%;	
 }
