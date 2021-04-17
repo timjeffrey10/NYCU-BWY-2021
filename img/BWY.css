@@ -50,8 +50,7 @@ img.product {
 	margin:5px;
 }
 img.pay {
-	max-width:300px;
-	min-width:110px;
+	max-width:500px;
 	margin:5px;
 }
 span {
@@ -138,4 +137,15 @@ footer {
 }
 footer a {
 	color: yellow;
+}
+@media screen and (min-width: 350px) and (max-width: 800px){ 
+	img.pay {
+		max-width:75vw;
+	}
+}
+@media screen and (max-width:350px) { 
+	img.pay {
+		max-width:1vw;
+		display:none;
+	}
 }
