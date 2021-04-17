@@ -15,7 +15,7 @@ h3 {
 	margin:1rem;
     color: #69AE1E;
 }
-p {
+p,li {
 	margin:1rem;
 }
 p.neon-effect {
@@ -47,6 +47,11 @@ summary {
 img.product {
 	width:20vw;
 	max-width:128px;
+	margin:5px;
+}
+img.pay {
+	max-width:300px;
+	min-width:110px;
 	margin:5px;
 }
 span {
