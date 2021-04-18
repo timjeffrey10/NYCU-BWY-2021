@@ -31,7 +31,7 @@ body {
 
 .btn2 a:hover{
 	color: orange ;
-	text-decoration: unset;
+	text-decoration: none;
 }
 .content {
 	margin:0% 1%;	
