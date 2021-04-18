@@ -6,26 +6,26 @@ a.btn2 {
     display: block;
     margin-bottom: 1rem;
     color: gray;
-    background: url('https://raw.githubusercontent.com/timjeffrey10/NYCU-BWY-2021/main/img/nav3-1.png') repeat-x;
-	border-top: none;
-	border-bottom: none;
-	border-left: none;
+    background: lightgoldenrodyellow;
+	border: yellow;
     border-radius: 0.3rem;
     transition: color 0.2s, background-color 0.2s, border-color 0.2s;
 	z-index: 999;
 	position: fixed;
 	right: 10px;
 	top: 10px;
-	height: 43px;
+	height: max-content;
 	width: max-content;
 	text-align: center;
-	font-size: 13px;
-	padding: 3px;
+	font-size: 20px;
+	padding: 5px;
 }
-a.btn2:hovor{
-	background-color: url('https://raw.githubusercontent.com/timjeffrey10/NYCU-BWY-2021/main/img/nav3-2.png'), repeat-x;
+a.btn2:hovor {
+	background-color: gold;
+	border-color: goldenrod;
 	color: white;
 	text-underline: none;
+	box-shadow: rgba(0,0,0,0.7);
 }
 .content {
 	margin:0% 1%;	
