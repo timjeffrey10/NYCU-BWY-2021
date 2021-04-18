@@ -19,10 +19,10 @@ a.btn2 {
 	height: 43px;
 	width: max-content;
 	text-align: center;
-	text-size: 13px;
+	font-size: 13px;
 	padding: 3px;
 }
-a.btn2: hovor{
+a.btn2 hovor{
 	background-color: url('https://raw.githubusercontent.com/timjeffrey10/NYCU-BWY-2021/main/img/nav3-2.png'), repeat-x;
 	color: white;
 	text-underline: none;
