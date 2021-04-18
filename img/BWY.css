@@ -27,7 +27,6 @@ a.btn2:hovor{
 	color: white;
 	text-underline: none;
 }
-
 .content {
 	margin:0% 1%;	
 }
@@ -70,13 +69,17 @@ summary {
 	font-size:1.2em;
 	color:blue;
 }
+img.pay {
+	max-width:500px;
+	margin:5px;
+}
+img.poster {
+	width:32vw;
+	min-width:350px;	
+}
 img.product {
 	width:20vw;
 	max-width:128px;
-	margin:5px;
-}
-img.pay {
-	max-width:500px;
 	margin:5px;
 }
 span {
@@ -101,34 +104,8 @@ div#logo {
     left: 3VW;
     top: 3VW;
 }
-.tr-flex {
-	display:flex;
-	flex-wrap: wrap;
-}
-.tr-flex .td-flex {
-	flex-basis:25%;
-	max-width:150px;
-	min-width:110px;
-	border: 1px solid #000;
-	border-radius: 5%;
-	margin:5px;
-	-moz-box-shadow:4px 4px 12px -2px rgba(20%,20%,40%,0.5);
-	-webkit-box-shadow:4px 4px 12px -2px rgba(20%,20%,40%,0.5);
-	box-shadow:4px 4px 12px -2px rgba(20%,20%,40%,0.5);
-}
-.tr-flex .td-flex.suggest{
-	-moz-box-shadow:4px 4px 12px -2px rgba(241,183,66,0.5);
-	-webkit-box-shadow:4px 4px 12px -2px rgba(241,183,66,0.5);
-	box-shadow:4px 4px 12px -2px rgba(241,183,66,0.5);
-}
-.tr-flex .td-flex2 {
-	flex: 1 1 33.3%;
-	min-width:200px;
-	box-sizing: border-box;
-	position: relative;
-}
-.tr-flex .td-flex2.main {
-	flex-basis: 66.6%;
+.info {
+	margin-left:2rem;
 }
 .inside_name {
 	padding:5px;
@@ -155,6 +132,37 @@ div#logo {
 .project-name {
     margin-top: 10px;
 }
+.tr-flex {
+	display:flex;
+	flex-wrap: wrap;
+}
+.tr-flex .td-flex {
+	flex-basis:25%;
+	max-width:150px;
+	min-width:110px;
+	border: 1px solid #000;
+	border-radius: 5%;
+	margin:5px;
+	-moz-box-shadow:4px 4px 12px -2px rgba(20%,20%,40%,0.5);
+	-webkit-box-shadow:4px 4px 12px -2px rgba(20%,20%,40%,0.5);
+	box-shadow:4px 4px 12px -2px rgba(20%,20%,40%,0.5);
+}
+.tr-flex .td-flex.suggest{
+	-moz-box-shadow:4px 4px 12px -2px rgba(241,183,66,0.5);
+	-webkit-box-shadow:4px 4px 12px -2px rgba(241,183,66,0.5);
+	box-shadow:4px 4px 12px -2px rgba(241,183,66,0.5);
+}
+.tr-flex .td-flex2 {
+	flex: 1 1 66.6%;
+	box-sizing: border-box;
+	position: relative;
+}
+.tr-flex .td-flex2.main {
+	flex-basis: 100%;
+}
+.tr-flex .td-flex2.poster {
+	flex-basis: 33.3%;
+}
 footer {
 	padding: 1rem 6rem;
 	color: #fff;
@@ -166,12 +174,16 @@ footer a {
 }
 @media screen and (min-width: 350px) and (max-width: 800px){ 
 	img.pay {
-		max-width:75vw;
+		width:75vw;
 	}
 }
 @media screen and (max-width:350px) { 
 	img.pay {
-		max-width:1vw;
+		width:1vw;
 		display:none;
+	}
+	img.poster {
+		width:100vw;
+		min-width:1px;
 	}
 }
