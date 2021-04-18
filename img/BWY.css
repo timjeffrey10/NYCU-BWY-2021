@@ -7,32 +7,31 @@ body {
     margin-bottom: 1rem;
     color: gray;
     background-color: gold;
-	border-color: lightyellow;
+	border-color: #FFFF66;
     border-radius: 0.3rem;
     transition: color 0.2s, background-color 0.2s, border-color 0.2s;
 	z-index: 999;
 	position: fixed;
 	right: 10px;
 	top: 10px;
-	height: max-content;
 	width: max-content;
+	padding: 0.1875rem;
 }
 
 .btn2 a{
 	text-align: center;
 	font-size: 20px;
-	padding: 5px;
 }
 
-.btn2:hovor {
-	background-color: lightblue;
+.btn2:hover {
+	background-color: #ffff66;
 	border-color: gold;
-	box-shadow: rgba(0,0,0,0.7);
+	box-shadow: 5px 5px 2px rgba(0,0,0,0.7);
 }
 
 .btn2 a:hover{
 	color: orange ;
-	text-underline: none;
+	text-underline: unset;
 }
 .content {
 	margin:0% 1%;	
@@ -83,6 +82,7 @@ img.pay {
 img.poster {
 	width:32vw;
 	min-width:350px;	
+	padding-left: 0.625rem;
 }
 img.product {
 	width:20vw;
