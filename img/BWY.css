@@ -50,6 +50,10 @@ body {
 .content {
 	margin:0% 1%;	
 }
+.content h1 {
+	font-weight:bold;
+	color: red;
+}
 h2 {
 	font-weight:bold;
 	color: #159957;
